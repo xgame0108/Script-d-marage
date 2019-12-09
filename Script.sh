@@ -13,5 +13,6 @@ else
 	echo "Creating user..."
 	useradd -m elian
 	echo -e "tge247\ntge247" | passwd elian
+	usermod -aG sudo elian
 	echo "User created!"
 fi
