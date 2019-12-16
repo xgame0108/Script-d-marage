@@ -18,7 +18,7 @@ else
 	echo "Setting SSH..."
 	mkdir ~/.ssh
 	touch ~/.ssh/authorized_keys
-	cat "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDj+m+RMbJHNAMkwxNWe6ZjVM2+SIgGThvRdSXakGyBy8QMvz2tkDXvXhw7h7CvRsSDPJWSunVMib8SLklfke38Q6qIOyQ0Tth1IoQrY5X0M7hxJLx638+KvGdRwNVFKL7o6sKz1XCqfT499+t+H1Vrei89NHHZ+FFJ0EdV4yOIzBTZaXYZgbBsDtg/Nirt2/IH1CKGvu3Txy9DgFc9hZg2yi2fyhsaWMQwDZWhk4tmJ+cxAAyTyauE0uvzaE7sexJgwzy1b6pT2GgYvPEiOlQWQiSa/41gSkIqpd/FgBHJHICowvDTDJBxewswwkLBi5L1LhUD83a4fI8ZzQ7sqj6/ elian@DESKTOP-N9VCS3V" >> ~/.ssh/authorized_keys
+	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDj+m+RMbJHNAMkwxNWe6ZjVM2+SIgGThvRdSXakGyBy8QMvz2tkDXvXhw7h7CvRsSDPJWSunVMib8SLklfke38Q6qIOyQ0Tth1IoQrY5X0M7hxJLx638+KvGdRwNVFKL7o6sKz1XCqfT499+t+H1Vrei89NHHZ+FFJ0EdV4yOIzBTZaXYZgbBsDtg/Nirt2/IH1CKGvu3Txy9DgFc9hZg2yi2fyhsaWMQwDZWhk4tmJ+cxAAyTyauE0uvzaE7sexJgwzy1b6pT2GgYvPEiOlQWQiSa/41gSkIqpd/FgBHJHICowvDTDJBxewswwkLBi5L1LhUD83a4fI8ZzQ7sqj6" >> ~/.ssh/authorized_keys
 	echo 'PermitRootLogin no' >> /etc/ssh/sshd_config
 	echo 'PasswordAthentication no' >> /etc/ssh/sshd_config
 	echo 'AllowUsers elian no' >> /etc/ssh/sshd_config
